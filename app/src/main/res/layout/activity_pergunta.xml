@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Pontuação: 1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_pontuacao"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Pergunta: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_pontuacao"
+        android:layout_marginTop="93dp"
+        android:id="@+id/textView_pergunta"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        tools:text="Quanto é: 2*2" />
+
+    <Button
+        android:text="op1_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_pergunta"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="85dp"
+        android:id="@+id/button_op_1"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="OP3_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/button_op3"
+        android:layout_below="@+id/button_op_2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="OP2_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/button_op_2"
+        android:layout_below="@+id/button_op_1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="OP4_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_op3"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="23dp"
+        android:id="@+id/button_op4"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Tempo:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_pontuacao"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp"
+        android:id="@+id/textView_tempo"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

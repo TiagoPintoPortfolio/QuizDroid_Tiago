@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Administração"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView5"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Criar Perguntas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="58dp"
+        android:id="@+id/button_criar_perguntas"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Ler Perguntas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_criar_perguntas"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="31dp"
+        android:id="@+id/button_ler_perguntas"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Editar Perguntas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_editar_perguntas"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Níveis de Jogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_remover_perguntas"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="41dp"
+        android:id="@+id/button_niveis_jogo"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Remover Perguntas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
+        android:id="@+id/button_remover_perguntas"
+        android:layout_below="@+id/button_editar_perguntas"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
